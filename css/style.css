@@ -1,0 +1,239 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: Enso;
+  src: url(../fonts/enso.ttf); }
+@font-face {
+  font-family: themify;
+  src: url(../fonts/themify.ttf); }
+.text-about-sign {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 16px;
+  display: block; }
+
+li {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+.icon-header {
+  width: 52px;
+  height: 48px;
+  color: #283238;
+  font-family: themify;
+  font-size: 48px;
+  letter-spacing: 4px;
+  line-height: 48px; }
+
+.title-header {
+  height: 48px;
+  width: 100%;
+  display: block;
+  margin-top: 14px;
+  color: #283238;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: -0.07px;
+  line-height: 48px; }
+
+.btn {
+  height: 50px;
+  width: 195px;
+  border-radius: 100px;
+  background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  text-transform: uppercase; }
+
+.icon-main {
+  height: 36px;
+  width: 36px;
+  color: #444444;
+  font-family: themify;
+  font-size: 36px;
+  letter-spacing: -0.07px;
+  line-height: 36px; }
+
+.title-main {
+  height: 63px;
+  width: 308px;
+  color: #444444;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+  letter-spacing: -0.09px;
+  line-height: 63px; }
+
+.text-content {
+  color: #283238;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: justify; }
+
+.header {
+  background-image: url(../images/banner.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .header .container {
+    padding: 0;
+    height: 100%; }
+    .header .container ul {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 0; }
+    .header .container .about-us {
+      color: #283238;
+      width: 66px;
+      height: 16px;
+      margin-top: 53px;
+      margin-right: 38px; }
+    .header .container .sign-in {
+      height: 34px;
+      width: 80px;
+      border: 2px solid #8BC34A;
+      border-radius: 100px;
+      text-align: center;
+      line-height: 34px;
+      margin-top: 43px;
+      color: #8BC34A; }
+    .header .container .title-hapo-erp {
+      height: 77px;
+      width: 100%;
+      color: #8BC34A;
+      font-family: Enso;
+      font-size: 64px;
+      line-height: 77px;
+      margin-top: 165px;
+      text-align: center; }
+    .header .container .container-title-icon {
+      width: 100%;
+      height: 110px;
+      margin-top: 53px;
+      display: flex;
+      justify-content: center; }
+      .header .container .container-title-icon .title-icon {
+        display: flex;
+        justify-content: space-between;
+        width: 750px;
+        height: 100%; }
+        .header .container .container-title-icon .title-icon .title-icon-start {
+          width: 96px;
+          height: 100%;
+          text-align: center; }
+        .header .container .container-title-icon .title-icon .title-icon-between {
+          width: 101px;
+          height: 100%;
+          text-align: center; }
+        .header .container .container-title-icon .title-icon .title-icon-end {
+          width: 141px;
+          height: 100%;
+          text-align: center; }
+    .header .container .container-describe-header {
+      width: 100%;
+      height: 24px;
+      margin-top: 53px;
+      text-align: center; }
+      .header .container .container-describe-header .describe-header {
+        width: 569px;
+        height: 100%;
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        font-style: italic;
+        letter-spacing: -0.03px;
+        line-height: 24px;
+        font-style: italic; }
+    .header .container .button-header {
+      width: 100%;
+      height: 50px;
+      margin-top: 31px;
+      margin-bottom: 233px;
+      text-align: center; }
+
+/*REPONSIVE*/
+@media screen and (max-width: 576px) {
+  .icon-header {
+    width: 20px;
+    height: 18px;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    line-height: 18px; }
+
+  .title-header {
+    height: 24px;
+    width: 100%;
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    line-height: 24px; }
+
+  .btn {
+    height: 40px;
+    width: 144px;
+    border-radius: 100px;
+    background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    text-transform: uppercase; }
+
+  .header .container ul {
+    padding-right: 23px; }
+    .header .container ul .about-us {
+      margin-top: 25px;
+      margin-right: 23px; }
+    .header .container ul .sign-in {
+      line-height: 34px;
+      margin-top: 15px; }
+  .header .container .title-hapo-erp {
+    height: 29px;
+    width: 100%;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 8px;
+    text-align: center; }
+  .header .container .container-title-icon {
+    height: 50px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    margin-right: 23px; }
+    .header .container .container-title-icon .title-icon {
+      width: 299px;
+      height: 100%;
+      display: flex;
+      justify-content: space-between; }
+      .header .container .container-title-icon .title-icon .title-icon-start {
+        width: 48px;
+        text-align: center; }
+      .header .container .container-title-icon .title-icon .title-icon-between {
+        width: 51px;
+        text-align: center; }
+      .header .container .container-title-icon .title-icon .title-icon-end {
+        width: 71px;
+        text-align: center; }
+  .header .container .container-describe-header {
+    height: 11px;
+    margin-top: 15px; }
+    .header .container .container-describe-header .describe-header {
+      width: 285px;
+      font-family: "Roboto", sans-serif;
+      font-size: 8px;
+      font-style: italic;
+      letter-spacing: -0.02px;
+      line-height: 11px;
+      font-style: italic; }
+  .header .container .button-header {
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom: 26.75px;
+    text-align: center; } }
+@media screen and (min-width: 768px) {
+  .header .container {
+    padding-right: 0; } }
