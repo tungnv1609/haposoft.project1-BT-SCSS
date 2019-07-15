@@ -12,6 +12,18 @@
 .mobile-visibility {
   display: none; }
 
+.six-nine {
+  display: block;
+  height: 73px;
+  width: 72px;
+  opacity: 0.4;
+  color: #FFFFFF;
+  font-family: #FFFFFF;
+  font-size: 72px;
+  letter-spacing: -0.14px;
+  line-height: 73px;
+  text-align: justify; }
+
 .text-about-sign {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
@@ -73,7 +85,7 @@ a {
   background: linear-gradient(311.12deg, #B4EC51 0%, #429321 100%);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
-  color: white; }
+  color: #FFFFFF; }
 
 .rounded {
   padding: 0; }
@@ -87,6 +99,16 @@ a {
   letter-spacing: -0.07px;
   line-height: 36px;
   margin-top: 14px; }
+
+.icon-large-main {
+  display: block;
+  height: 24px;
+  width: 18px;
+  color: #8BC34A;
+  font-family: themify;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: justify; }
 
 .title-main {
   height: 63px;
@@ -205,7 +227,6 @@ a {
         height: 19px;
         margin-bottom: 25px; }
       .main .container-learnt .row .learnt-right .main-content {
-        width: 555px;
         margin-bottom: 30px;
         margin-left: 0; }
   .main .report {
@@ -224,12 +245,193 @@ a {
           padding-left: 16px; }
           .main .report .container .row .report-right .rounded {
             width: 100%;
+            height: 388px; }
+  .main .function-list {
+    padding: 69px 0;
+    background: linear-gradient(315deg, #B4EC51 0%, #429321 100%); }
+    .main .function-list .container {
+      background-color: red;
+      padding: 0; }
+      .main .function-list .container .cfo {
+        width: 109.5px;
+        height: 185px;
+        background-color: blue;
+        text-align: center; }
+        .main .function-list .container .cfo .circle-small {
+          width: 100%;
+          height: 109.5px;
+          background-color: gold;
+          border: 2.5px solid #FFFFFF;
+          border-radius: 100%;
+          align-items: center; }
+          .main .function-list .container .cfo .circle-small .icon-main {
+            margin: 0; }
+        .main .function-list .container .cfo .container-circle-large {
+          width: 100%;
+          height: 45.5px;
+          margin-top: -22.7px; }
+          .main .function-list .container .cfo .container-circle-large .circle-large {
+            box-sizing: border-box;
+            height: 45.5px;
+            width: 45.5px;
+            border: 2.5px solid #FFFFFF;
+            background-color: #8BC34A;
+            border-radius: 100%; }
+        .main .function-list .container .cfo span {
+          display: block;
+          margin-top: 10px;
+          text-transform: uppercase;
+          color: #FFFFFF; }
+  .main .member {
+    padding: 100px 0; }
+    .main .member .container {
+      padding: 0; }
+      .main .member .container .row {
+        margin: 0; }
+        .main .member .container .row .col-xl-6 {
+          padding: 0; }
+        .main .member .container .row .member-left {
+          padding-right: 15px; }
+          .main .member .container .row .member-left .container-content {
+            margin-bottom: 30px;
+            width: 100%;
+            height: 184px; }
+            .main .member .container .row .member-left .container-content .container-icon {
+              width: 36px;
+              height: 100%; }
+              .main .member .container .row .member-left .container-content .container-icon .check {
+                margin-bottom: 26px; }
+        .main .member .container .row .container-main-content {
+          width: 519px;
+          height: 100%; }
+          .main .member .container .row .container-main-content .main-content-one {
+            margin-bottom: 17px; }
+        .main .member .container .row .member-right {
+          padding-left: 16px; }
+          .main .member .container .row .member-right .rounded {
+            width: 100%;
+            height: 388px; }
+  .main .customer {
+    padding: 100px 0; }
+    .main .customer .container {
+      padding: 0; }
+      .main .customer .container .row {
+        margin: 0; }
+        .main .customer .container .row .col-xl-6 {
+          padding: 0; }
+        .main .customer .container .row .customer-right {
+          padding-left: 15px; }
+          .main .customer .container .row .customer-right .container-content {
+            margin-bottom: 30px;
+            width: 100%;
+            height: 176px; }
+            .main .customer .container .row .customer-right .container-content .container-icon {
+              width: 36px;
+              height: 100%; }
+              .main .customer .container .row .customer-right .container-content .container-icon .check {
+                margin-bottom: 26px; }
+        .main .customer .container .row .container-main-content {
+          width: 519px;
+          height: 100%; }
+          .main .customer .container .row .container-main-content .main-content-one {
+            margin-bottom: 17px; }
+        .main .customer .container .row .customer-left {
+          padding-right: 16px; }
+          .main .customer .container .row .customer-left .rounded {
+            width: 100%;
             height: 100%; }
+  .main .list-our-customer {
+    padding: 0;
+    width: 100%;
+    height: 544px;
+    background-image: url(../images/Rectangle\ 3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center; }
+    .main .list-our-customer .container {
+      padding: 50px 0 29px 0; }
+      .main .list-our-customer .container .title-main-customer {
+        width: 100%;
+        height: 63px;
+        text-align: center;
+        padding: 0; }
+        .main .list-our-customer .container .title-main-customer .title-main {
+          margin: 0;
+          color: #FFFFFF; }
+      .main .list-our-customer .container .container-img-name-customer {
+        width: 100%;
+        height: 123px;
+        margin-top: 38px; }
+        .main .list-our-customer .container .container-img-name-customer .img-name-customer {
+          text-align: center; }
+          .main .list-our-customer .container .container-img-name-customer .img-name-customer span {
+            color: #FFFFFF;
+            display: block;
+            margin-top: 16px;
+            font-family: "Roboto", sans-serif;
+            font-size: 10px;
+            letter-spacing: -0.03px;
+            line-height: 13px; }
+    .main .list-our-customer .six-content-nine {
+      margin-top: 39px;
+      width: 100%;
+      height: 188px; }
+      .main .list-our-customer .six-content-nine .number-six {
+        width: 390px;
+        height: 100%;
+        padding-right: 27px; }
+      .main .list-our-customer .six-content-nine .content {
+        width: 750px;
+        height: 142px;
+        align-items: flex-end; }
+        .main .list-our-customer .six-content-nine .content .content-our-customer {
+          height: 90px;
+          width: 750px;
+          color: #FFFFFF;
+          font-family: "Roboto", sans-serif;
+          font-size: 18px;
+          font-weight: 300;
+          letter-spacing: -0.03px;
+          line-height: 30px;
+          text-align: justify; }
+      .main .list-our-customer .six-content-nine .number-nine {
+        width: 390px;
+        height: 100%;
+        align-items: flex-end;
+        padding-left: 27px; }
+
+.projects {
+  padding: 100px 0; }
+  .projects .container {
+    padding: 0; }
+    .projects .container .row {
+      margin: 0; }
+      .projects .container .row .col-xl-6 {
+        padding: 0; }
+      .projects .container .row .projects-left {
+        padding-right: 15px; }
+        .projects .container .row .projects-left .main-content {
+          margin-bottom: 30px; }
+      .projects .container .row .projects-right {
+        padding-left: 16px; }
+        .projects .container .row .projects-right .rounded {
+          width: 100%;
+          height: 100%; }
 
 /*REPONSIVE*/
 @media screen and (max-width: 576px) {
   .mobile-visibility {
     display: block; }
+
+  .mobile-hidden {
+    display: none; }
+
+  .six-nine {
+    height: 48px;
+    width: 62.14px;
+    font-size: 48px;
+    letter-spacing: -0.09px;
+    line-height: 48px; }
 
   .icon-header {
     width: 20px;
@@ -403,6 +605,101 @@ a {
           .main .report .container-report .row .report-right {
             padding-left: 0; }
             .main .report .container-report .row .report-right .rounded {
+              margin-bottom: 35.25px;
+              height: 278px; }
+    .main .function-list {
+      padding: 38.75px 0 75px 0; }
+      .main .function-list .container {
+        background-color: red; }
+        .main .function-list .container .mobile-hidden {
+          display: none; }
+        .main .function-list .container .cfo {
+          height: 184px;
+          margin: 0 9px; }
+          .main .function-list .container .cfo .circle-small .icon-main {
+            margin: 0;
+            width: 36px;
+            height: 36px; }
+    .main .member {
+      padding: 30px 0; }
+      .main .member .container-member {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 10px; }
+        .main .member .container-member .row {
+          margin: 0; }
+          .main .member .container-member .row .col-12 {
+            padding: 0; }
+          .main .member .container-member .row .member-left {
+            padding-right: 0; }
+            .main .member .container-member .row .member-left .mobile-hidden {
+              display: none; }
+            .main .member .container-member .row .member-left .container-content {
+              margin-bottom: 21px;
+              height: 231px; }
+            .main .member .container-member .row .member-left .describe {
+              margin-bottom: 15px; }
+          .main .member .container-member .row .member-right {
+            padding-left: 0; }
+            .main .member .container-member .row .member-right .rounded {
+              margin-bottom: 35.25px;
+              height: 340px; }
+    .main .customer {
+      display: none; }
+    .main .list-our-customer {
+      height: 525px;
+      padding: 0; }
+      .main .list-our-customer .container {
+        padding: 25px 0; }
+        .main .list-our-customer .container .title-main-customer {
+          height: 32px; }
+        .main .list-our-customer .container .container-img-name-customer {
+          padding: 0 10px;
+          width: 100%;
+          height: 145px; }
+        .main .list-our-customer .container .six-content-nine {
+          margin-top: 58px;
+          height: 201px;
+          padding: 0 10px;
+          flex-direction: column; }
+          .main .list-our-customer .container .six-content-nine .number-six {
+            width: 62px;
+            height: 100%;
+            padding-right: 0; }
+          .main .list-our-customer .container .six-content-nine .content {
+            width: 100%;
+            height: 460px;
+            align-items: flex-end; }
+            .main .list-our-customer .container .six-content-nine .content .content-our-customer {
+              height: 100px;
+              width: 100%;
+              font-size: 14px;
+              line-height: 25px; }
+          .main .list-our-customer .container .six-content-nine .number-nine {
+            width: 100%;
+            height: 100%;
+            justify-content: flex-end; }
+    .main .projects {
+      padding: 30px 0; }
+      .main .projects .container-projects {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 10px; }
+        .main .projects .container-projects .row {
+          margin: 0; }
+          .main .projects .container-projects .row .col-12 {
+            padding: 0; }
+          .main .projects .container-projects .row .projects-left {
+            padding-right: 0; }
+            .main .projects .container-projects .row .projects-left .mobile-hidden {
+              display: none; }
+            .main .projects .container-projects .row .projects-left .main-content {
+              margin-bottom: 15px; }
+            .main .projects .container-projects .row .projects-left .describe {
+              margin-bottom: 15px; }
+          .main .projects .container-projects .row .projects-right {
+            padding-left: 0; }
+            .main .projects .container-projects .row .projects-right .rounded {
               margin-bottom: 35.25px;
               height: 278px; } }
 @media screen and (min-width: 768px) {
