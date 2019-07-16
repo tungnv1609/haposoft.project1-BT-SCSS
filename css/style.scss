@@ -9,7 +9,6 @@ $black: #283238;
 $green: #8BC34A;
 $font-family-text: 'Roboto',
 sans-serif;
-;
 $font-family-icon: themify;
 @font-face {
     font-family: Enso;
@@ -31,7 +30,7 @@ $font-family-icon: themify;
     width: 72px;
     opacity: 0.4;
     color: $white;
-    font-family: $white;
+    font-family: themify;
     font-size: 72px;
     letter-spacing: -0.14px;
     line-height: 73px;
@@ -100,7 +99,7 @@ a {
     text-align: justify;
 }
 
-.btn {
+.button-start-global {
     height: 50px;
     width: 195px;
     border-radius: 100px;
@@ -178,6 +177,7 @@ a {
             height: 16px;
             margin-top: 53px;
             margin-right: 38px;
+            text-transform: uppercase;
         }
         .sign-in {
             height: 34px;
@@ -188,6 +188,7 @@ a {
             line-height: 34px;
             margin-top: 43px;
             color: $green;
+            text-transform: uppercase;
         }
         .title-hapo-erp {
             height: 77px;
@@ -205,7 +206,7 @@ a {
             height: 110px;
             margin-top: 53px;
             .title-icon {
-                width: 42%;
+                width: 66%;
                 height: 100%;
                 display: flex;
                 justify-content: space-between;
@@ -302,7 +303,7 @@ a {
                     padding-left: 16px;
                     .rounded {
                         width: 100%;
-                        height: 388px;
+                        height: 336px;
                     }
                 }
             }
@@ -312,22 +313,20 @@ a {
         padding: 69px 0;
         background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
         .container {
-            background-color: red;
             padding: 0;
             .cfo {
                 width: 109.5px;
                 height: 185px;
-                background-color: blue;
                 text-align: center;
                 .circle-small {
                     width: 100%;
                     height: 109.5px;
-                    background-color: gold;
                     border: 2.5px solid $white;
                     border-radius: 100%;
                     align-items: center;
                     .icon-main {
                         margin: 0;
+                        color: $white;
                     }
                 }
                 .container-circle-large {
@@ -341,6 +340,17 @@ a {
                         border: 2.5px solid $white;
                         background-color: $green;
                         border-radius: 100%;
+                        span {
+                            display: block;
+                            text-align: center;
+                            height: 32px;
+                            width: 14px;
+                            color: #FFFFFF;
+                            font-family: $font-family-text;
+                            font-size: 24px;
+                            letter-spacing: -0.05px;
+                            line-height: 32px;
+                        }
                     }
                 }
                 span {
@@ -365,7 +375,7 @@ a {
                     padding-right: 15px;
                     .container-content {
                         margin-bottom: 30px;
-                        width: 100%;
+                        // width: 100%;
                         height: 184px;
                         .container-icon {
                             width: 36px;
@@ -373,6 +383,15 @@ a {
                             .check {
                                 margin-bottom: 26px;
                             }
+                        }
+                    }
+                    .button-main {
+                        width: 100%;
+                        height: 50px;
+                        margin-top: 30px;
+                        .button {
+                            width: 195px;
+                            height: 50px;
                         }
                     }
                 }
@@ -535,6 +554,88 @@ a {
     }
 }
 
+.footer {
+    padding: 0;
+    background-color: #39474E;
+    box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
+    .container {
+        padding: 45px 0 57px 0;
+        .container-content {
+            width: 100%;
+            height: 78px;
+            .container-info {
+                width: 857px;
+                height: 100%;
+                .info-first {
+                    width: 96px;
+                    height: 100%;
+                    h1 {
+                        height: 29px;
+                        width: 96px;
+                        color: $green;
+                        font-family: Enso;
+                        font-size: 24px;
+                        line-height: 29px;
+                    }
+                    span {
+                        display: block;
+                        height: 13px;
+                        width: 69px;
+                        color: $white;
+                        font-family: $font-family-text;
+                        font-size: 10px;
+                        font-weight: 500;
+                        letter-spacing: -0.02px;
+                        line-height: 13px;
+                        margin-top: 36px;
+                    }
+                }
+                .info-second {
+                    width: 86px;
+                    height: 100%;
+                    h1 {
+                        height: 18px;
+                        width: 86px;
+                        color: $green;
+                        font-family: $font-family-text;
+                        font-size: 13px;
+                        font-weight: 500;
+                        letter-spacing: -0.03px;
+                        line-height: 18px;
+                    }
+                    span {
+                        display: block;
+                        height: 13px;
+                        width: 69px;
+                        color: $white;
+                        font-family: $font-family-text;
+                        font-size: 10px;
+                        font-weight: 500;
+                        letter-spacing: -0.02px;
+                        line-height: 13px;
+                        margin-top: 47px;
+                    }
+                }
+            }
+            .container-link {
+                width: 165px;
+                height: 100%;
+                align-items: flex-end;
+                justify-content: space-between;
+                .pcfooter {
+                    height: 13px;
+                    width: 13px;
+                    color: $green;
+                    font-family: $font-family-icon;
+                    font-size: 13px;
+                    letter-spacing: -0.03px;
+                    line-height: 13px;
+                }
+            }
+        }
+    }
+}
+
 
 /*REPONSIVE*/
 
@@ -584,7 +685,7 @@ a {
         line-height: 21px;
         text-align: justify;
     }
-    .btn {
+    .button-start-global {
         height: 100%;
         width: 144px;
         border-radius: 100px;
@@ -730,7 +831,7 @@ a {
             }
         }
         .report {
-            padding: 30px 0;
+            padding: 30px 10px;
             .container-report {
                 width: 100%;
                 margin: 0 auto;
@@ -765,7 +866,7 @@ a {
         .function-list {
             padding: 38.75px 0 75px 0;
             .container {
-                background-color: red;
+                padding: 0 10px;
                 .mobile-hidden {
                     display: none;
                 }
@@ -783,7 +884,7 @@ a {
             }
         }
         .member {
-            padding: 30px 0;
+            padding: 30px 10px;
             .container-member {
                 width: 100%;
                 margin: 0 auto;
@@ -801,18 +902,22 @@ a {
                         .container-content {
                             margin-bottom: 21px;
                             height: 231px;
+                            .container-icon {
+                                .check {
+                                    margin-bottom: 47px;
+                                }
+                            }
                         }
                         .describe {
-                            margin-bottom: 15px;
+                            margin-bottom: 20px;
                         }
                     }
                     .member-right {
                         padding-left: 0;
                         .rounded {
                             margin-bottom: 35.25px;
-                            height: 340px;
+                            height: 310px;
                         }
-                        .button-main {}
                     }
                 }
             }
@@ -899,16 +1004,64 @@ a {
             }
         }
     }
-}
-
-@media screen and (min-width: 768px) {
-    .header {
+    .footer {
+        padding: 24px 0 28.31px 0;
         .container {
-            padding-right: 0;
+            padding: 0 10px;
+            width: 100%;
+            height: 157px;
+            .container-content {
+                width: 100%;
+                height: 71px;
+                margin-top: 25px;
+                .container-info {
+                    width: 100%;
+                }
+                .container-link {
+                    width: 0;
+                    height: 0;
+                }
+            }
+            .info-first-mobile {
+                h1 {
+                    height: 24px;
+                    width: 96px;
+                    color: $green;
+                    font-family: Enso;
+                    font-size: 20px;
+                    line-height: 24px;
+                    margin-bottom: 25px;
+                }
+            }
+            .footer-bottom {
+                width: 100%;
+                margin-top: 24px;
+                height: 13px;
+                .container-link-mobile {
+                    width: 110px;
+                    height: 13px;
+                    .icon-footer {
+                        height: 13px;
+                        width: 13px;
+                        color: $green;
+                        font-family: themify;
+                        font-size: 13px;
+                        letter-spacing: -0.03px;
+                        line-height: 13px;
+                    }
+                }
+                span {
+                    display: block;
+                    height: 13px;
+                    width: 70px;
+                    color: $white;
+                    font-family: $font-family-text;
+                    font-size: 10px;
+                    font-weight: 500;
+                    letter-spacing: -0.02px;
+                    line-height: 13px;
+                }
+            }
         }
     }
 }
-
-@media screen and (min-width: 992px) {}
-
-@media screen and (min-width: 1200px) {}
