@@ -341,8 +341,6 @@ a {
                         background-color: $green;
                         border-radius: 100%;
                         span {
-                            display: block;
-                            text-align: center;
                             height: 32px;
                             width: 14px;
                             color: #FFFFFF;
@@ -375,7 +373,6 @@ a {
                     padding-right: 15px;
                     .container-content {
                         margin-bottom: 30px;
-                        // width: 100%;
                         height: 184px;
                         .container-icon {
                             width: 36px;
@@ -937,9 +934,6 @@ a {
                     padding: 0 10px;
                     width: 100%;
                     height: 145px;
-                    .img-name-customer {
-                        span {}
-                    }
                 }
                 .six-content-nine {
                     margin-top: 58px;
