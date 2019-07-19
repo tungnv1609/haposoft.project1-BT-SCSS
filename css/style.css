@@ -333,10 +333,9 @@ li {
   letter-spacing: -0.05px;
   line-height: 32px;
 }
-.main .function-list .container .cfo span {
+.main .function-list .container .cfo a {
   display: block;
   margin-top: 10px;
-  text-transform: uppercase;
   color: #FFFFFF;
 }
 .main .member {
@@ -459,6 +458,10 @@ li {
 .main .list-our-customer .container .container-img-name-customer .img-name-customer {
   text-align: center;
 }
+.main .list-our-customer .container .container-img-name-customer .img-name-customer .img-customer:hover {
+  width: 100px;
+  height: 100px;
+}
 .main .list-our-customer .container .container-img-name-customer .img-name-customer span {
   color: #FFFFFF;
   display: block;
@@ -468,22 +471,37 @@ li {
   letter-spacing: -0.03px;
   line-height: 13px;
 }
-.main .list-our-customer .six-content-nine {
+.main .list-our-customer .container .circle-action-slide {
+  width: 100%;
+  height: 10px;
+  margin-top: 20px;
+}
+.main .list-our-customer .container .circle-action-slide span {
+  width: 8px;
+  height: 8px;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  margin: 0 11px;
+}
+.main .list-our-customer .container .circle-action-slide span:hover {
+  background-color: #FFFFFF;
+}
+.main .list-our-customer .container .six-content-nine {
   margin-top: 39px;
   width: 100%;
   height: 188px;
 }
-.main .list-our-customer .six-content-nine .number-six {
+.main .list-our-customer .container .six-content-nine .number-six {
   width: 390px;
   height: 100%;
   padding-right: 27px;
 }
-.main .list-our-customer .six-content-nine .content {
+.main .list-our-customer .container .six-content-nine .content {
   width: 750px;
   height: 142px;
   align-items: flex-end;
 }
-.main .list-our-customer .six-content-nine .content .content-our-customer {
+.main .list-our-customer .container .six-content-nine .content .content-our-customer {
   height: 90px;
   width: 750px;
   color: #FFFFFF;
@@ -494,7 +512,7 @@ li {
   line-height: 30px;
   text-align: justify;
 }
-.main .list-our-customer .six-content-nine .number-nine {
+.main .list-our-customer .container .six-content-nine .number-nine {
   width: 390px;
   height: 100%;
   align-items: flex-end;
@@ -554,6 +572,7 @@ li {
   font-family: Enso;
   font-size: 24px;
   line-height: 29px;
+  margin-bottom: 0;
 }
 .footer .container .container-content .container-info .info-first span {
   display: block;
@@ -573,25 +592,27 @@ li {
 }
 .footer .container .container-content .container-info .info-second h1 {
   height: 18px;
-  width: 86px;
+  width: 97px;
   color: #8BC34A;
   font-family: "Roboto", sans-serif;
   font-size: 13px;
   font-weight: 500;
   letter-spacing: -0.03px;
   line-height: 18px;
+  margin-bottom: 0;
+}
+.footer .container .container-content .container-info .info-second .info-text {
+  width: 76px;
+  height: 40px;
+  margin-top: 14px;
 }
 .footer .container .container-content .container-info .info-second span {
-  display: block;
-  height: 13px;
-  width: 69px;
   color: #FFFFFF;
   font-family: "Roboto", sans-serif;
   font-size: 10px;
   font-weight: 500;
   letter-spacing: -0.02px;
-  line-height: 13px;
-  margin-top: 47px;
+  line-height: 20px;
 }
 .footer .container .container-content .container-link {
   width: 165px;

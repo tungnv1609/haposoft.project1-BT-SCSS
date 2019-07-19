@@ -327,10 +327,9 @@ li {
                         }
                     }
                 }
-                span {
+                a {
                     display: block;
                     margin-top: 10px;
-                    text-transform: uppercase;
                     color: $white;
                 }
             }
@@ -454,6 +453,12 @@ li {
                 margin-top: 38px;
                 .img-name-customer {
                     text-align: center;
+                    .img-customer {
+                        &:hover {
+                            width: 100px;
+                            height: 100px;
+                        }
+                    }
                     span {
                         color: $white;
                         display: block;
@@ -465,37 +470,52 @@ li {
                     }
                 }
             }
-        }
-        .six-content-nine {
-            margin-top: 39px;
-            width: 100%;
-            height: 188px;
-            .number-six {
-                width: 390px;
-                height: 100%;
-                padding-right: 27px;
-            }
-            .content {
-                width: 750px;
-                height: 142px;
-                align-items: flex-end;
-                .content-our-customer {
-                    height: 90px;
-                    width: 750px;
-                    color: $white;
-                    font-family: $font-family-text;
-                    font-size: 18px;
-                    font-weight: 300;
-                    letter-spacing: -0.03px;
-                    line-height: 30px;
-                    text-align: justify;
+            .circle-action-slide {
+                width: 100%;
+                height: 10px;
+                margin-top: 20px;
+                span {
+                    width: 8px;
+                    height: 8px;
+                    border: 1px solid $white;
+                    border-radius: 50%;
+                    margin: 0 11px;
+                    &:hover {
+                        background-color: $white;
+                    }
                 }
             }
-            .number-nine {
-                width: 390px;
-                height: 100%;
-                align-items: flex-end;
-                padding-left: 27px;
+            .six-content-nine {
+                margin-top: 39px;
+                width: 100%;
+                height: 188px;
+                .number-six {
+                    width: 390px;
+                    height: 100%;
+                    padding-right: 27px;
+                }
+                .content {
+                    width: 750px;
+                    height: 142px;
+                    align-items: flex-end;
+                    .content-our-customer {
+                        height: 90px;
+                        width: 750px;
+                        color: $white;
+                        font-family: $font-family-text;
+                        font-size: 18px;
+                        font-weight: 300;
+                        letter-spacing: -0.03px;
+                        line-height: 30px;
+                        text-align: justify;
+                    }
+                }
+                .number-nine {
+                    width: 390px;
+                    height: 100%;
+                    align-items: flex-end;
+                    padding-left: 27px;
+                }
             }
         }
     }
@@ -549,6 +569,7 @@ li {
                         font-family: Enso;
                         font-size: 24px;
                         line-height: 29px;
+                        margin-bottom: 0;
                     }
                     span {
                         display: block;
@@ -568,25 +589,37 @@ li {
                     height: 100%;
                     h1 {
                         height: 18px;
-                        width: 86px;
+                        width: 97px;
                         color: $green;
                         font-family: $font-family-text;
                         font-size: 13px;
                         font-weight: 500;
                         letter-spacing: -0.03px;
                         line-height: 18px;
+                        margin-bottom: 0;
+                    }
+                    .info-text {
+                        width: 76px;
+                        height: 40px;
+                        margin-top: 14px;
                     }
                     span {
-                        display: block;
-                        height: 13px;
-                        width: 69px;
                         color: $white;
                         font-family: $font-family-text;
                         font-size: 10px;
                         font-weight: 500;
                         letter-spacing: -0.02px;
-                        line-height: 13px;
-                        margin-top: 47px;
+                        line-height: 20px;
+                        // display: block;
+                        // height: 13px;
+                        // width: 69px;
+                        // color: $white;
+                        // font-family: $font-family-text;
+                        // font-size: 10px;
+                        // font-weight: 500;
+                        // letter-spacing: -0.02px;
+                        // line-height: 13px;
+                        // margin-top: 47px;
                     }
                 }
             }
