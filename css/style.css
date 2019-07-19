@@ -37,7 +37,7 @@ li {
   list-style-type: none;
 }
 
-.container {
+.container-section {
   padding: 0;
 }
 
@@ -147,13 +147,13 @@ li {
   background-repeat: no-repeat;
   background-position: center;
 }
-.header .container {
+.header .container-section {
   height: 100%;
 }
-.header .container ul {
+.header .container-section ul {
   margin-bottom: 0;
 }
-.header .container .about-us {
+.header .container-section .about-us {
   color: #283238;
   width: 66px;
   height: 16px;
@@ -161,7 +161,7 @@ li {
   margin-right: 38px;
   text-transform: uppercase;
 }
-.header .container .sign-in {
+.header .container-section .sign-in {
   height: 34px;
   width: 80px;
   border: 2px solid #8BC34A;
@@ -172,7 +172,7 @@ li {
   color: #8BC34A;
   text-transform: uppercase;
 }
-.header .container .title-hapo-erp {
+.header .container-section .title-hapo-erp {
   height: 77px;
   width: 100%;
   color: #8BC34A;
@@ -183,33 +183,33 @@ li {
   text-align: center;
   margin-bottom: 0;
 }
-.header .container .container-title-icon {
+.header .container-section .container-title-icon {
   width: 100%;
   height: 110px;
   margin-top: 53px;
 }
-.header .container .container-title-icon .title-icon {
+.header .container-section .container-title-icon .title-icon {
   width: 66%;
   height: 100%;
   display: flex;
   justify-content: space-between;
 }
-.header .container .container-title-icon .title-icon .title-icon-start {
+.header .container-section .container-title-icon .title-icon .title-icon-start {
   width: 96px;
   height: 100%;
   text-align: center;
 }
-.header .container .container-title-icon .title-icon .title-icon-between {
+.header .container-section .container-title-icon .title-icon .title-icon-between {
   width: 101px;
   height: 100%;
   text-align: center;
 }
-.header .container .container-title-icon .title-icon .title-icon-end {
+.header .container-section .container-title-icon .title-icon .title-icon-end {
   width: 141px;
   height: 100%;
   text-align: center;
 }
-.header .container .describe {
+.header .container-section .describe {
   width: 100%;
   height: 24px;
   font-size: 18px;
@@ -217,7 +217,7 @@ li {
   text-align: center;
   margin-top: 53px;
 }
-.header .container .button-header {
+.header .container-section .button-header {
   width: 100%;
   height: 50px;
   margin-top: 31px;
@@ -229,94 +229,62 @@ li {
   width: 100%;
   height: 100%;
 }
-.main .container {
+.main .container-section {
   padding-bottom: 100px;
   padding-top: 100px;
 }
-.main .container-learnt .row {
-  margin: 0;
-}
-.main .container-learnt .row .col-xl-6 {
-  padding: 0;
-}
-.main .container-learnt .row .learnt-left {
-  padding-right: 15px;
-}
-.main .container-learnt .row .learnt-left .rounded {
+.main .container-section .wrapper .learnt-left .img-learnt {
   width: 100%;
   height: 372.5px;
 }
-.main .container-learnt .row .learnt-right {
-  padding-left: 16px;
-  padding-right: 0;
-}
-.main .container-learnt .row .learnt-right .title-main {
+.main .container-section .wrapper .learnt-right .title-main {
   width: 308px;
 }
-.main .container-learnt .row .learnt-right .describe {
+.main .container-section .wrapper .learnt-right .describe {
   display: block;
   width: 100%;
   height: 19px;
   margin-bottom: 25px;
 }
-.main .container-learnt .row .learnt-right .main-content {
+.main .container-section .wrapper .learnt-right .main-content {
   margin-bottom: 30px;
   margin-left: 0;
 }
-.main .report {
-  padding: 100px 0;
-}
-.main .report .container {
-  padding: 0;
-}
-.main .report .container .row {
-  margin: 0;
-}
-.main .report .container .row .col-xl-6 {
-  padding: 0;
-}
-.main .report .container .row .report-left {
-  padding-right: 15px;
-}
-.main .report .container .row .report-left .main-content {
+.main .report .container-section .wrapper .report-left .main-content {
   margin-bottom: 30px;
 }
-.main .report .container .row .report-right {
-  padding-left: 16px;
-}
-.main .report .container .row .report-right .rounded {
+.main .report .container-section .wrapper .report-right .img-report {
   width: 100%;
   height: 336px;
 }
 .main .function-list {
-  padding: 69px 0;
   background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
 }
-.main .function-list .container {
-  padding: 0;
+.main .function-list .container-section {
+  padding: 69px 0;
 }
-.main .function-list .container .cfo {
+.main .function-list .container-section .cfo {
   width: 109.5px;
   height: 185px;
   text-align: center;
 }
-.main .function-list .container .cfo .circle-small {
+.main .function-list .container-section .cfo .circle-small {
   width: 100%;
   height: 109.5px;
   border: 2.5px solid #FFFFFF;
   border-radius: 100%;
   align-items: center;
 }
-.main .function-list .container .cfo .circle-small .icon-main {
+.main .function-list .container-section .cfo .circle-small .icon-main {
   margin: 0;
   color: #FFFFFF;
 }
-.main .function-list .container .cfo .container-circle-large {
+.main .function-list .container-section .cfo .container-circle-large {
   width: 100%;
   height: 45.5px;
   margin-top: -22.7px;
 }
-.main .function-list .container .cfo .container-circle-large .circle-large {
+.main .function-list .container-section .cfo .container-circle-large .circle-large {
   box-sizing: border-box;
   height: 45.5px;
   width: 45.5px;
@@ -324,7 +292,7 @@ li {
   background-color: #8BC34A;
   border-radius: 100%;
 }
-.main .function-list .container .cfo .container-circle-large .circle-large span {
+.main .function-list .container-section .cfo .container-circle-large .circle-large span {
   height: 32px;
   width: 14px;
   color: #FFFFFF;
@@ -333,98 +301,68 @@ li {
   letter-spacing: -0.05px;
   line-height: 32px;
 }
-.main .function-list .container .cfo a {
+.main .function-list .container-section .cfo a {
   display: block;
   margin-top: 10px;
   color: #FFFFFF;
 }
-.main .member {
-  padding: 100px 0;
-}
-.main .member .container {
-  padding: 0;
-}
-.main .member .container .row {
-  margin: 0;
-}
-.main .member .container .row .col-xl-6 {
-  padding: 0;
-}
-.main .member .container .row .member-left {
-  padding-right: 15px;
-}
-.main .member .container .row .member-left .container-content {
+.main .member .container-section .wrapper .member-left .container-content {
   margin-bottom: 30px;
   height: 184px;
 }
-.main .member .container .row .member-left .container-content .container-icon {
+.main .member .container-section .wrapper .member-left .container-content .container-icon {
   width: 36px;
   height: 100%;
 }
-.main .member .container .row .member-left .container-content .container-icon .check {
+.main .member .container-section .wrapper .member-left .container-content .container-icon .check {
   margin-bottom: 26px;
 }
-.main .member .container .row .member-left .button-main {
+.main .member .container-section .wrapper .member-left .button-main {
   width: 100%;
   height: 50px;
   margin-top: 30px;
 }
-.main .member .container .row .member-left .button-main .button {
+.main .member .container-section .wrapper .member-left .button-main .button {
   width: 195px;
   height: 50px;
 }
-.main .member .container .row .container-main-content {
+.main .member .container-section .wrapper .container-main-content {
   width: 519px;
   height: 100%;
 }
-.main .member .container .row .container-main-content .main-content-one {
+.main .member .container-section .wrapper .container-main-content .main-content-one {
   margin-bottom: 17px;
 }
-.main .member .container .row .member-right {
+.main .member .container-section .wrapper .member-right {
   padding-left: 16px;
 }
-.main .member .container .row .member-right .rounded {
+.main .member .container-section .wrapper .member-right .img-member {
   width: 100%;
   height: 388px;
 }
-.main .customer {
+.main .customer .container-section {
   padding: 100px 0;
 }
-.main .customer .container {
-  padding: 0;
-}
-.main .customer .container .row {
-  margin: 0;
-}
-.main .customer .container .row .col-xl-6 {
-  padding: 0;
-}
-.main .customer .container .row .customer-right {
-  padding-left: 15px;
-}
-.main .customer .container .row .customer-right .container-content {
+.main .customer .container-section .wrapper .customer-right .container-content {
   margin-bottom: 30px;
   width: 100%;
   height: 176px;
 }
-.main .customer .container .row .customer-right .container-content .container-icon {
+.main .customer .container-section .wrapper .customer-right .container-content .container-icon {
   width: 36px;
   height: 100%;
 }
-.main .customer .container .row .customer-right .container-content .container-icon .check {
+.main .customer .container-section .wrapper .customer-right .container-content .container-icon .check {
   margin-bottom: 26px;
 }
-.main .customer .container .row .container-main-content {
+.main .customer .container-section .wrapper .customer-right .container-content .container-main-content {
   width: 519px;
   height: 100%;
 }
-.main .customer .container .row .container-main-content .main-content-one {
+.main .customer .container-section .wrapper .customer-right .container-content .container-main-content .main-content-one {
   margin-bottom: 17px;
 }
-.main .customer .container .row .customer-left {
-  padding-right: 16px;
-}
-.main .customer .container .row .customer-left .rounded {
+.main .customer .container-section .wrapper .customer-left .img-customer {
   width: 100%;
   height: 100%;
 }
@@ -437,32 +375,32 @@ li {
   background-repeat: no-repeat;
   background-position: center center;
 }
-.main .list-our-customer .container {
+.main .list-our-customer .container-section {
   padding: 50px 0 29px 0;
 }
-.main .list-our-customer .container .title-main-customer {
+.main .list-our-customer .container-section .title-main-customer {
   width: 100%;
   height: 63px;
   text-align: center;
   padding: 0;
 }
-.main .list-our-customer .container .title-main-customer .title-main {
+.main .list-our-customer .container-section .title-main-customer .title-main {
   margin: 0;
   color: #FFFFFF;
 }
-.main .list-our-customer .container .container-img-name-customer {
+.main .list-our-customer .container-section .container-img-name-customer {
   width: 100%;
   height: 123px;
   margin-top: 38px;
 }
-.main .list-our-customer .container .container-img-name-customer .img-name-customer {
+.main .list-our-customer .container-section .container-img-name-customer .img-name-customer {
   text-align: center;
 }
-.main .list-our-customer .container .container-img-name-customer .img-name-customer .img-customer:hover {
+.main .list-our-customer .container-section .container-img-name-customer .img-name-customer .img-customer:hover {
   width: 100px;
   height: 100px;
 }
-.main .list-our-customer .container .container-img-name-customer .img-name-customer span {
+.main .list-our-customer .container-section .container-img-name-customer .img-name-customer span {
   color: #FFFFFF;
   display: block;
   margin-top: 16px;
@@ -471,37 +409,37 @@ li {
   letter-spacing: -0.03px;
   line-height: 13px;
 }
-.main .list-our-customer .container .circle-action-slide {
+.main .list-our-customer .container-section .circle-action-slide {
   width: 100%;
   height: 10px;
   margin-top: 20px;
 }
-.main .list-our-customer .container .circle-action-slide span {
+.main .list-our-customer .container-section .circle-action-slide span {
   width: 8px;
   height: 8px;
   border: 1px solid #FFFFFF;
   border-radius: 50%;
   margin: 0 11px;
 }
-.main .list-our-customer .container .circle-action-slide span:hover {
+.main .list-our-customer .container-section .circle-action-slide span:hover {
   background-color: #FFFFFF;
 }
-.main .list-our-customer .container .six-content-nine {
+.main .list-our-customer .container-section .six-content-nine {
   margin-top: 39px;
   width: 100%;
   height: 188px;
 }
-.main .list-our-customer .container .six-content-nine .number-six {
+.main .list-our-customer .container-section .six-content-nine .number-six {
   width: 390px;
   height: 100%;
   padding-right: 27px;
 }
-.main .list-our-customer .container .six-content-nine .content {
+.main .list-our-customer .container-section .six-content-nine .content {
   width: 750px;
   height: 142px;
   align-items: flex-end;
 }
-.main .list-our-customer .container .six-content-nine .content .content-our-customer {
+.main .list-our-customer .container-section .six-content-nine .content .content-our-customer {
   height: 90px;
   width: 750px;
   color: #FFFFFF;
@@ -512,35 +450,19 @@ li {
   line-height: 30px;
   text-align: justify;
 }
-.main .list-our-customer .container .six-content-nine .number-nine {
+.main .list-our-customer .container-section .six-content-nine .number-nine {
   width: 390px;
   height: 100%;
   align-items: flex-end;
   padding-left: 27px;
 }
-
-.projects {
+.main .projects .container-section {
   padding: 100px 0;
 }
-.projects .container {
-  padding: 0;
-}
-.projects .container .row {
-  margin: 0;
-}
-.projects .container .row .col-xl-6 {
-  padding: 0;
-}
-.projects .container .row .projects-left {
-  padding-right: 15px;
-}
-.projects .container .row .projects-left .main-content {
+.main .projects .container-section .projects-left .main-content {
   margin-bottom: 30px;
 }
-.projects .container .row .projects-right {
-  padding-left: 16px;
-}
-.projects .container .row .projects-right .rounded {
+.main .projects .container-section .projects-right .img-projects {
   width: 100%;
   height: 100%;
 }
@@ -550,22 +472,22 @@ li {
   background-color: #39474E;
   box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
 }
-.footer .container {
+.footer .container-section {
   padding: 45px 0 57px 0;
 }
-.footer .container .container-content {
+.footer .container-section .container-content {
   width: 100%;
   height: 78px;
 }
-.footer .container .container-content .container-info {
+.footer .container-section .container-content .container-info {
   width: 857px;
   height: 100%;
 }
-.footer .container .container-content .container-info .info-first {
+.footer .container-section .container-content .container-info .info-first {
   width: 96px;
   height: 100%;
 }
-.footer .container .container-content .container-info .info-first h1 {
+.footer .container-section .container-content .container-info .info-first h1 {
   height: 29px;
   width: 96px;
   color: #8BC34A;
@@ -574,7 +496,7 @@ li {
   line-height: 29px;
   margin-bottom: 0;
 }
-.footer .container .container-content .container-info .info-first span {
+.footer .container-section .container-content .container-info .info-first span {
   display: block;
   height: 13px;
   width: 69px;
@@ -586,11 +508,11 @@ li {
   line-height: 13px;
   margin-top: 36px;
 }
-.footer .container .container-content .container-info .info-second {
+.footer .container-section .container-content .container-info .info-second {
   width: 86px;
   height: 100%;
 }
-.footer .container .container-content .container-info .info-second h1 {
+.footer .container-section .container-content .container-info .info-second h1 {
   height: 18px;
   width: 97px;
   color: #8BC34A;
@@ -601,12 +523,12 @@ li {
   line-height: 18px;
   margin-bottom: 0;
 }
-.footer .container .container-content .container-info .info-second .info-text {
+.footer .container-section .container-content .container-info .info-second .info-text {
   width: 76px;
   height: 40px;
   margin-top: 14px;
 }
-.footer .container .container-content .container-info .info-second span {
+.footer .container-section .container-content .container-info .info-second span {
   color: #FFFFFF;
   font-family: "Roboto", sans-serif;
   font-size: 10px;
@@ -614,11 +536,11 @@ li {
   letter-spacing: -0.02px;
   line-height: 20px;
 }
-.footer .container .container-content .container-link {
+.footer .container-section .container-content .container-link {
   width: 165px;
   height: 100%;
 }
-.footer .container .container-content .container-link .pcfooter {
+.footer .container-section .container-content .container-link .pcfooter {
   height: 13px;
   width: 13px;
   color: #8BC34A;

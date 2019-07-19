@@ -90,21 +90,21 @@
     width: 100%;
     height: 100%;
   }
-  .header .container {
+  .header .container-section {
     padding-right: 23px;
   }
-  .header .container ul {
+  .header .container-section ul {
     padding-right: 23px;
   }
-  .header .container ul .about-us {
+  .header .container-section ul .about-us {
     margin-top: 25px;
     margin-right: 23px;
   }
-  .header .container ul .sign-in {
+  .header .container-section ul .sign-in {
     line-height: 34px;
     margin-top: 15px;
   }
-  .header .container .title-hapo-erp {
+  .header .container-section .title-hapo-erp {
     height: 29px;
     width: 100%;
     font-size: 24px;
@@ -113,34 +113,34 @@
     margin-bottom: 0;
     text-align: center;
   }
-  .header .container .container-title-icon {
+  .header .container-section .container-title-icon {
     height: 50px;
     margin-top: 20px;
   }
-  .header .container .container-title-icon .title-icon {
+  .header .container-section .container-title-icon .title-icon {
     width: 299px;
     height: 100%;
   }
-  .header .container .container-title-icon .title-icon .title-icon-start {
+  .header .container-section .container-title-icon .title-icon .title-icon-start {
     width: 48px;
     text-align: center;
   }
-  .header .container .container-title-icon .title-icon .title-icon-between {
+  .header .container-section .container-title-icon .title-icon .title-icon-between {
     width: 51px;
     text-align: center;
   }
-  .header .container .container-title-icon .title-icon .title-icon-end {
+  .header .container-section .container-title-icon .title-icon .title-icon-end {
     width: 71px;
     text-align: center;
   }
-  .header .container .describe {
+  .header .container-section .describe {
     height: 11px;
     font-size: 9px;
     letter-spacing: -0.02px;
     line-height: 11px;
     margin-top: 15px;
   }
-  .header .container .button-header {
+  .header .container-section .button-header {
     width: 100%;
     height: 40px;
     margin-top: 15px;
@@ -153,7 +153,7 @@
     width: 100%;
     height: 100%;
   }
-  .main .container {
+  .main .container-section {
     padding: 30px 10px;
   }
   .main .container-learnt {
@@ -224,17 +224,17 @@
   .main .function-list {
     padding: 38.75px 0 75px 0;
   }
-  .main .function-list .container {
+  .main .function-list .container-section {
     padding: 0 10px;
   }
-  .main .function-list .container .mobile-hidden {
+  .main .function-list .container-section .mobile-hidden {
     display: none;
   }
-  .main .function-list .container .cfo {
+  .main .function-list .container-section .cfo {
     height: 184px;
     margin: 0 9px;
   }
-  .main .function-list .container .cfo .circle-small .icon-main {
+  .main .function-list .container-section .cfo .circle-small .icon-main {
     margin: 0;
     width: 36px;
     height: 36px;
@@ -283,43 +283,43 @@
     height: 525px;
     padding: 0;
   }
-  .main .list-our-customer .container {
+  .main .list-our-customer .container-section {
     padding: 25px 0;
   }
-  .main .list-our-customer .container .title-main-customer {
+  .main .list-our-customer .container-section .title-main-customer {
     height: 32px;
   }
-  .main .list-our-customer .container .container-img-name-customer {
+  .main .list-our-customer .container-section .container-img-name-customer {
     padding: 0 10px;
     width: 100%;
     height: 145px;
   }
-  .main .list-our-customer .container .circle-action-slide {
+  .main .list-our-customer .container-section .circle-action-slide {
     margin-top: 32px;
   }
-  .main .list-our-customer .container .six-content-nine {
+  .main .list-our-customer .container-section .six-content-nine {
     margin-top: 16px;
     height: 201px;
     padding: 0 10px;
     flex-direction: column;
   }
-  .main .list-our-customer .container .six-content-nine .number-six {
+  .main .list-our-customer .container-section .six-content-nine .number-six {
     width: 62px;
     height: 100%;
     padding-right: 0;
   }
-  .main .list-our-customer .container .six-content-nine .content {
+  .main .list-our-customer .container-section .six-content-nine .content {
     width: 100%;
     height: 460px;
     align-items: flex-end;
   }
-  .main .list-our-customer .container .six-content-nine .content .content-our-customer {
+  .main .list-our-customer .container-section .six-content-nine .content .content-our-customer {
     height: 100px;
     width: 100%;
     font-size: 14px;
     line-height: 25px;
   }
-  .main .list-our-customer .container .six-content-nine .number-nine {
+  .main .list-our-customer .container-section .six-content-nine .number-nine {
     width: 100%;
     height: 100%;
     justify-content: flex-end;
@@ -361,27 +361,27 @@
   .footer {
     padding: 24px 0 28.31px 0;
   }
-  .footer .container {
+  .footer .container-section {
     padding: 0 10px;
     width: 100%;
     height: 157px;
   }
-  .footer .container .container-content {
+  .footer .container-section .container-content {
     width: 100%;
     height: 71px;
     margin-top: 25px;
   }
-  .footer .container .container-content .container-info {
+  .footer .container-section .container-content .container-info {
     width: 100%;
   }
-  .footer .container .container-content .container-info .info-text {
+  .footer .container-section .container-content .container-info .info-text {
     margin-top: 11px;
   }
-  .footer .container .container-content .container-link {
+  .footer .container-section .container-content .container-link {
     width: 0;
     height: 0;
   }
-  .footer .container .info-first-mobile h1 {
+  .footer .container-section .info-first-mobile h1 {
     height: 24px;
     width: 96px;
     color: #8BC34A;
@@ -390,16 +390,16 @@
     line-height: 24px;
     margin-bottom: 25px;
   }
-  .footer .container .footer-bottom {
+  .footer .container-section .footer-bottom {
     width: 100%;
     margin-top: 24px;
     height: 13px;
   }
-  .footer .container .footer-bottom .container-link-mobile {
+  .footer .container-section .footer-bottom .container-link-mobile {
     width: 110px;
     height: 13px;
   }
-  .footer .container .footer-bottom .container-link-mobile .icon-footer {
+  .footer .container-section .footer-bottom .container-link-mobile .icon-footer {
     height: 13px;
     width: 13px;
     color: #8BC34A;
@@ -408,7 +408,7 @@
     letter-spacing: -0.03px;
     line-height: 13px;
   }
-  .footer .container .footer-bottom span {
+  .footer .container-section .footer-bottom span {
     display: block;
     height: 13px;
     width: 70px;

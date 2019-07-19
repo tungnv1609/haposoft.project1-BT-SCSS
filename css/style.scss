@@ -31,7 +31,7 @@ li {
     list-style-type: none;
 }
 
-.container {
+.container-section {
     padding: 0;
 }
 
@@ -142,7 +142,7 @@ li {
         repeat: no-repeat;
         position: center;
     }
-    .container {
+    .container-section {
         height: 100%;
         ul {
             margin-bottom: 0;
@@ -224,26 +224,17 @@ li {
 .main {
     width: 100%;
     height: 100%;
-    .container {
+    .container-section {
         padding-bottom: 100px;
         padding-top: 100px;
-    }
-    .container-learnt {
-        .row {
-            margin: 0;
-            .col-xl-6 {
-                padding: 0;
-            }
+        .wrapper {
             .learnt-left {
-                padding-right: 15px;
-                .rounded {
+                .img-learnt {
                     width: 100%;
                     height: 372.5px;
                 }
             }
             .learnt-right {
-                padding-left: 16px;
-                padding-right: 0;
                 .title-main {
                     width: 308px;
                 }
@@ -261,23 +252,16 @@ li {
         }
     }
     .report {
-        padding: 100px 0;
-        .container {
-            padding: 0;
-            .row {
-                margin: 0;
-                .col-xl-6 {
-                    padding: 0;
-                }
+        // padding: 100px 0;
+        .container-section {
+            .wrapper {
                 .report-left {
-                    padding-right: 15px;
                     .main-content {
                         margin-bottom: 30px;
                     }
                 }
                 .report-right {
-                    padding-left: 16px;
-                    .rounded {
+                    .img-report {
                         width: 100%;
                         height: 336px;
                     }
@@ -286,10 +270,9 @@ li {
         }
     }
     .function-list {
-        padding: 69px 0;
         background: linear-gradient(315deg, #B4EC51 0%, #429321 100%);
-        .container {
-            padding: 0;
+        .container-section {
+            padding: 69px 0;
             .cfo {
                 width: 109.5px;
                 height: 185px;
@@ -336,16 +319,17 @@ li {
         }
     }
     .member {
-        padding: 100px 0;
-        .container {
-            padding: 0;
-            .row {
-                margin: 0;
-                .col-xl-6 {
-                    padding: 0;
-                }
+        // padding: 100px 0;
+        .container-section {
+            .wrapper {
+                // padding: 0;
+                // .row {
+                //     margin: 0;
+                //     .col-xl-6 {
+                //         padding: 0;
+                //     }
                 .member-left {
-                    padding-right: 15px;
+                    // padding-right: 15px;
                     .container-content {
                         margin-bottom: 30px;
                         height: 184px;
@@ -376,7 +360,7 @@ li {
                 }
                 .member-right {
                     padding-left: 16px;
-                    .rounded {
+                    .img-member {
                         width: 100%;
                         height: 388px;
                     }
@@ -385,16 +369,11 @@ li {
         }
     }
     .customer {
-        padding: 100px 0;
-        .container {
-            padding: 0;
-            .row {
-                margin: 0;
-                .col-xl-6 {
-                    padding: 0;
-                }
+        .container-section {
+            padding: 100px 0;
+            .wrapper {
                 .customer-right {
-                    padding-left: 15px;
+                    .title-main {}
                     .container-content {
                         margin-bottom: 30px;
                         width: 100%;
@@ -406,18 +385,17 @@ li {
                                 margin-bottom: 26px;
                             }
                         }
-                    }
-                }
-                .container-main-content {
-                    width: 519px;
-                    height: 100%;
-                    .main-content-one {
-                        margin-bottom: 17px;
+                        .container-main-content {
+                            width: 519px;
+                            height: 100%;
+                            .main-content-one {
+                                margin-bottom: 17px;
+                            }
+                        }
                     }
                 }
                 .customer-left {
-                    padding-right: 16px;
-                    .rounded {
+                    .img-customer {
                         width: 100%;
                         height: 100%;
                     }
@@ -435,7 +413,7 @@ li {
             repeat: no-repeat;
             position: center center;
         }
-        .container {
+        .container-section {
             padding: 50px 0 29px 0;
             .title-main-customer {
                 width: 100%;
@@ -519,26 +497,23 @@ li {
             }
         }
     }
-}
-
-.projects {
-    padding: 100px 0;
-    .container {
-        padding: 0;
-        .row {
-            margin: 0;
-            .col-xl-6 {
-                padding: 0;
-            }
+    .projects {
+        .container-section {
+            padding: 100px 0;
+            // .row {
+            //     margin: 0;
+            //     .col-xl-6 {
+            //         padding: 0;
+            //     }
             .projects-left {
-                padding-right: 15px;
+                // padding-right: 15px;
                 .main-content {
                     margin-bottom: 30px;
                 }
             }
             .projects-right {
-                padding-left: 16px;
-                .rounded {
+                // padding-left: 16px;
+                .img-projects {
                     width: 100%;
                     height: 100%;
                 }
@@ -551,7 +526,7 @@ li {
     padding: 0;
     background-color: #39474E;
     box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.1);
-    .container {
+    .container-section {
         padding: 45px 0 57px 0;
         .container-content {
             width: 100%;
@@ -610,16 +585,6 @@ li {
                         font-weight: 500;
                         letter-spacing: -0.02px;
                         line-height: 20px;
-                        // display: block;
-                        // height: 13px;
-                        // width: 69px;
-                        // color: $white;
-                        // font-family: $font-family-text;
-                        // font-size: 10px;
-                        // font-weight: 500;
-                        // letter-spacing: -0.02px;
-                        // line-height: 13px;
-                        // margin-top: 47px;
                     }
                 }
             }
