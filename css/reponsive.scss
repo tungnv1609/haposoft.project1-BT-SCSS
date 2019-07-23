@@ -1,6 +1,9 @@
 @import 'variable.scss';
 @import 'font.scss';
 @media screen and (max-width: 576px) {
+    #myBtn {
+        font-size: 14px;
+    }
     .six-nine {
         height: 48px;
         width: 62.14px;
@@ -72,10 +75,7 @@
         margin: -27px 0 5px 180px;
     }
     .header {
-        // width: 100%;
-        // height: 100%;
         .container-section {
-            // padding-right: 23px;
             ul {
                 padding-right: 23px;
                 .about-us {

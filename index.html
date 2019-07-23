@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/themify-icons.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reponsive.css">
     <title>Haposoft</title>
@@ -17,16 +18,14 @@
     <header>
         <div class="container-fluid header">
             <div class="container container-header container-section">
-                <menu>
-                    <ul class="d-flex justify-content-end">
-                        <li>
-                            <a class="about-us text-about-sign text-decoration-none " href="# " title=" ">About us</a>
-                        </li>
-                        <li>
-                            <a class="sign-in text-about-sign text-decoration-none " href="# " title="Sign in ">Sign in</a>
-                        </li>
-                    </ul>
-                </menu>
+                <ul class="d-flex justify-content-end">
+                    <li>
+                        <a class="about-us text-about-sign text-decoration-none " href="# " title=" ">About us</a>
+                    </li>
+                    <li>
+                        <a class="sign-in text-about-sign text-decoration-none " href="# " title="Sign in ">Sign in</a>
+                    </li>
+                </ul>
                 <h1 class="title-hapo-erp ">hapoERP</h1>
                 <div class="container-title-icon d-flex justify-content-center ">
                     <div class="title-icon ">
@@ -76,6 +75,7 @@
                         </div>
                     </div>
                 </div>
+                <button onclick="topFunction()" id="myBtn" title="Go to top" type="button" class="btn">Top</button>
             </div>
             <div class="container-fluid report ">
                 <div class="container container-report container-section ">
@@ -336,7 +336,6 @@
                                 <span>Contact us</span>
                                 <span>Contact Sales</span>
                             </div>
-
                         </div>
                         <div class="info-second ">
                             <h1 class="text-uppercase">learn more</h1>
@@ -382,6 +381,8 @@
     <script type=" text/javascript " src="js/jquery-3.4.1.min.js "></script>
     <script type="text/javascript " src="js/jquery-ui.min.js "></script>
     <script type="text/javascript " src="js/bootstrap.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
 </body>
 
 </html>
